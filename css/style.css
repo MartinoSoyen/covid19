@@ -1,0 +1,232 @@
+
+body {
+    background-color: #F6F6F6;
+    line-height: 1;
+    color: #666666;
+    font: normal normal 300 18px/130% Source_Sans_Pro, sans-serif;
+    font-style: normal;
+    font-variant-caps: normal;
+    font-weight: 250;
+    font-stretch: normal;
+    font-size: 18px;
+    line-height: 130%;
+    font-family: Source_Sans_Pro, sans-serif;
+    font-size-adjust: none;
+    font-kerning: auto;
+    font-optical-sizing: auto;
+    font-variant-alternates: normal;
+    font-variant-east-asian: normal;
+    font-variant-ligatures: normal;
+    font-variant-numeric: normal;
+    font-variant-position: normal;
+    font-language-override: normal;
+    font-feature-settings: normal;
+    font-variation-settings: normal;
+}
+
+
+.begin {
+  padding: 1rem 2rem 4rem 3rem;
+  margin-bottom: 2rem;
+  border-radius: 0.0rem;
+  font-family: Lato;
+  background-color: #2fcc6e;
+  background-image: linear-gradient(#0f6f54,#2fcc6e);
+}
+
+@media (min-width: 576px) {
+  .begin {
+    font-family: Lato;
+    font-weight: 2rem;
+    padding: 1rem 2rem 4rem 3rem;
+    margin-bottom: 2rem;
+    border-radius: 0.0rem;
+    background-color: #2fcc6e;
+    background-image: linear-gradient(#0f6f54ff,#2fcc6e);
+  }
+}
+
+
+.header-btn {
+  font-family: sans-serif;
+  padding: 0.9rem 1.8rem;
+  font-size: 1.0rem;
+  line-height: 1.3;
+  font-weight: 600;
+  border-radius: 0.1rem;
+  color: #fff;
+  background-color: #F2C836;
+  border-color: ##F2C836;
+}
+.header-btn:hover {
+  color: #F2C836;
+  background-color: transparent;
+  border-color: #F2C836;
+  border: 1px solid;
+  text-decoration: none;
+}
+
+.header-btn:focus, .header-btn.focus {
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.5);
+}
+
+#header-container {
+  text-align: left;
+}
+
+#header-autocheck {
+  text-align: left;
+}
+.header-content1 {
+  font-family: Lato;
+  color: #fff;
+  text-transform: uppercase; 
+  font-size: 2.5rem;
+  font-weight: 390;
+  line-height: 1.5;
+}
+
+.header-content2 {
+  font-family: Lato;
+  color: #fff;
+  text-transform: uppercase; 
+  font-size: 1.5rem;
+  font-weight: 390;
+  line-height: 1.5;
+}
+
+.active {
+  color: #F2C836;
+}
+
+.doubt-container {
+  width: 100%;
+  padding-right: 8px;
+  padding-left: 8px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+p {
+  font-size: 18px;
+}
+
+.auto-check, a{
+  color: #666666;
+  text-decoration: none;
+}
+.auto-check> a{
+  color:  #F2C836;
+}
+
+.precaution-container {
+  width: 100%;
+  padding-right: 8px;
+  padding-left: 8px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.precaution {
+  border-radius: 3px;
+  align-content: center;
+  background-color: #F7FAFF;
+  border: 1px solid white;
+  text-align: center;
+  padding-top: 2rem;
+  float: center;
+  height: 350px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0,  0,  0.3);
+  transition: 0.3s;
+  font-family: Source_Sans_Pro;
+}
+
+.precaution:hover {
+  box-shadow: 0 2px 4px 0 rgba(0, 0,  0,  0.45);
+  transition: 0.4s;
+}
+
+.precaution-title {
+  font-family: sans-serif;
+}
+
+.precaution-div {
+  display: inline-block;
+  min-height: 0;
+  padding: 0;
+  width: auto;
+  text-align: center;
+  align-content: content;
+  border-radius: 50%; 
+  height: 100px; 
+  width: 100px;
+  box-shadow: rgba(0, 0, 0, .560784) 0 7px 20px -12px, rgba(0, 0, 0, .117647) 0 4px 25px 0, rgba(0, 0, 0, .2) 0 8px 10px -5px;
+  height: 100px;
+  margin: 0 auto 27px;
+  min-height: 0;
+  padding-bottom: 25px;
+  padding-top: 25px;
+  transition: all 0.2s linear 0s;
+  color: #FFFFFF;
+  font-size: 45px;
+  width: 100px;
+}
+
+.produit-container {
+  width: 100%;
+  padding-right: 30px;
+  padding-left: 30px;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: #F7FAFF;
+}
+
+.produit-desc>h1 {
+  color: #F2C836;
+}
+
+.produit-link {
+  color: #F2C836;
+}
+ a:hover {
+  text-decoration: none;
+  color: #B41F42;
+}
+
+@media screen and (max-width: 548px) {
+    .hr{
+        display:none;
+    }
+}
+
+  @media(max-width: 48em) {
+    #nav-menu {
+      float: none;
+    }
+  }
+
+  .xs-hidden {
+  visibility: visible;
+}
+
+@media (min-width: 576px) {
+  .xs-hidden {
+    visibility: hidden !important;
+  }
+}
+
+
+@font-face {
+  font-family: Source_Sans_Pro; 
+  src: url(../fonts/Source_Sans_Pro/SourceSansPro-light.ttf);
+}
+
+@font-face {
+  font-family: Source_Sans_Reg; 
+  src: url(../fonts/Source_Sans_Pro/SourceSansPro-SemiBold.ttf);
+}
+
+@font-face {
+  font-family: Lato; 
+  src: url(../fonts/Lato/Lato-Bold.ttf);
+}
